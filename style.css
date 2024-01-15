@@ -5,3 +5,40 @@
 header {
   background-color: rgb(233, 125, 125);
 }
+.navBarHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50%;
+  border: solid rgb(204, 101, 101);
+  width: 65px;
+}
+.logoPerrito {
+  width: 100%;
+  border-radius: 50%;
+}
+.linkHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box2 {
+  width: 800px;
+  height: 300px;
+  border: solid rgb(204, 101, 101);
+}
+.imgBox2 {
+  width: 100%;
+  height: 100%;
+}
