@@ -1,44 +1,83 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
 header {
-  background-color: rgb(233, 125, 125);
-}
-.navBarHeader {
+  background-color: rgb(71, 65, 65);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+
 .logoHeader {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 50%;
-  border: solid rgb(204, 101, 101);
-  width: 65px;
 }
+
+.imgLogoContainer {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: solid 1px;
+}
+
 .logoPerrito {
   width: 100%;
   border-radius: 50%;
 }
-.linkHeader {
+
+.links {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  list-style: none;
 }
-.headerContainer {
+
+.mainContainer {
+  background-color: rgb(71, 65, 65);
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+}
+
+.box1 {
+  width: 50%;
 }
 .box2 {
-  width: 800px;
-  height: 300px;
-  border: solid rgb(204, 101, 101);
+  width: 50%;
 }
+
 .imgBox2 {
   width: 100%;
   height: 100%;
 }
+
+button {
+  background-color: blue;
+  width: 100px;
+  height: 50px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WinnerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containerWinner {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+}
+.boxImgWinnwer {
+  border: solid 3px;
+  border-radius: 15%;
+  width: 100%;
+  height: 100%;
+}
+
+/* debo agregar imagenes*/
